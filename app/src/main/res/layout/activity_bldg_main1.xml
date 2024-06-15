@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbldg1"
+    tools:context=".Bldg_main1">
+
+
+    <Button
+        android:id="@+id/Floor2_1"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:text="2ND FLOOR"
+        android:backgroundTint="#FFD703"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="63dp"
+        />
+
+    <Button
+        android:id="@+id/Floor2_2"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:text="2ND FLOOR"
+        android:backgroundTint="#FFD703"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        />
+
+    <ImageView
+        android:id="@+id/ComLab3Button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        app:tint="@color/black"
+        tools:srcCompat="@drawable/door_icon" />
+
+    <TextView
+        android:id="@+id/Comlab3Tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Laboratory 3"
+        android:layout_marginTop="145dp"
+        android:layout_toEndOf="@+id/ComLab3Button"
+        android:textColor="@color/black"
+        tools:ignore="RelativeOverlap"/>
+    <TextView
+        android:id="@+id/Comlab3Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:layout_below="@+id/Comlab3Tag"
+        android:layout_toEndOf="@+id/ComLab3Button"
+        android:textColor="#00FF00"
+        />
+
+</RelativeLayout>

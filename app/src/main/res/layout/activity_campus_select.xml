@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rtsm1"
+    tools:context=".campus_select">
+
+    <ImageView
+        android:id="@+id/bldgImg"
+        android:layout_width="150dp"
+        android:layout_height="280dp"
+        android:background="@drawable/bldg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        />
+
+    <Button
+        android:id="@+id/enterBtn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bldgImg"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFD703"
+        android:text="ENTER CAMPUS"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

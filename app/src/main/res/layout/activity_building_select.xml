@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rtsm1"
+    tools:context=".building_select">
+
+    <ImageView
+        android:id="@+id/btnMain"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bldg1"
+        android:layout_marginTop="275dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        />
+    <ImageView
+        android:id="@+id/btnAnnex"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bldg2"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANNEX BLDG"
+        android:layout_below="@+id/btnAnnex"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN BLDG"
+        android:layout_below="@+id/btnMain"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>
