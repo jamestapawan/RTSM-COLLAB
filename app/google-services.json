@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182848046600",
+    "project_id": "rtsm-72280",
+    "storage_bucket": "rtsm-72280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182848046600:android:e352a419d135789f3473bd",
+        "android_client_info": {
+          "package_name": "com.jtdev.rtsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7X6lmatzFmywU4l1Wy2Hu-66l59zAGI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
